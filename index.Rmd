@@ -91,7 +91,7 @@ df_spain <- df_renamed %>%
   filter(country == "Spain")
 ```
 
-I combined the following activities to reduce the number of categories to 9, improving clarity of the visualization:
+I combined the following activities to reduce the number of categories from 14 to 9, improving clarity of the visualization:
 
 1) paid work + unpaid work --> work and volunteering
 
@@ -189,6 +189,8 @@ df_spain[16,1] <- "Spain"
 df_spain[17,2] <- "Work and Volunteering"
 df_spain[17,1] <- "Spain"
 ```
+
+Due to the large amount of data wrangling needed for this data set, 16 functions were created. Details on these can be found in the [codebook](https://github.com/210155316/210155316_project/blob/main/data/codebook.txt).
 
 ```{r}
 #CREATING FUNCTIONS 
