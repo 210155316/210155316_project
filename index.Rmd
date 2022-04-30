@@ -37,7 +37,7 @@ Thus, the following research questions were outlined:
 
 2) Are there any time-use categories that are significantly different between European and East Asian countries?
 
-Please visit my [github repository](https://github.com/210155316/210155316_project) to access all documentation related to this project!
+Please visit my [github repository](https://github.com/210155316/210155316_project) to access all documentation related to this project! 
 
 
 # Data Collection
