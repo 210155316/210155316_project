@@ -190,7 +190,7 @@ df_spain[17,2] <- "Work and Volunteering"
 df_spain[17,1] <- "Spain"
 ```
 
-Due to the large amount of data wrangling needed for this data set, 16 functions were created. Details on these can be found in the [codebook](https://github.com/210155316/210155316_project/blob/main/data/codebook.txt).
+Due to the large amount of data wrangling needed for this data set, 16 functions were created. Details on these can be found in the [codebook](https://github.com/210155316/210155316_project/blob/main/data/codebook.txt). 
 
 ```{r}
 #CREATING FUNCTIONS 
