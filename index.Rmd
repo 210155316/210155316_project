@@ -392,7 +392,7 @@ df_spain$duration <- function_012(df_spain)
 ```
 
 ```{r}
-#FUNCTION_013 --> converting time column to numeric function 
+#FUNCTION_013 --> converting time column to numerical data 
 function_013 <- function(df){
   as.numeric(df$time)
 }
@@ -502,7 +502,7 @@ p <- df_all %>%
 #adding text labels in bold to the middle of each bar category using cumulative column positions, adjusting font size and removing arrow 
   add_annotations(text = sprintf("<b>%s</b>", df_all$duration), x = c(df_all$cumulative), 
                   y=~country, showarrow = FALSE, font = list(size = 5)) %>% 
-  config(displayModeBar = FALSE)
+  config(displayModeBar = TRUE)
 ```
 
 ```{r}
